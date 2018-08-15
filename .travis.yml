@@ -1,0 +1,5 @@
+language: java
+matrix:
+  include:
+    - jdk: openjdk7
+    - jdk: oraclejdk7
