@@ -1,8 +1,7 @@
 language: java
-matrix:
-  include:
-    - jdk: openjdk7
-    - jdk: oraclejdk7
 
 install: true
-script: mvn -DskipTests=true clean verify
+
+sudo: false # faster builds
+
+script: "mvn -DskipTests=true clean verify"
