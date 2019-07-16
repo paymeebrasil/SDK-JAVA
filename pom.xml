@@ -72,7 +72,7 @@
     </scm>
 
     <properties>
-        <jackson.version>2.9.0</jackson.version>
+        <jackson.version>2.9.6</jackson.version>
         <modelMapper.version>2.1.0</modelMapper.version>
         <springWeb.version>4.3.18.RELEASE</springWeb.version>
     </properties>
