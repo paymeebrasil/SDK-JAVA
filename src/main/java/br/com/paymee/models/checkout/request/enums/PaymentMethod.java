@@ -8,5 +8,8 @@ public enum PaymentMethod {
     ITAU_TRANSFER_PJ,
     ITAU_DI,
     SANTANDER_TRANSFER,
-    SANTANDER_DI;
+    SANTANDER_DI,
+    CEF_TRANSFER,
+    ORIGINAL_TRANSFER,
+    INTER_TRANSFER;
 }
