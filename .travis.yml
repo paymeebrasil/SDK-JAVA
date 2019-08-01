@@ -1,7 +1,4 @@
 language: java
-
 install: true
-
-sudo: false # faster builds
-
-script: "mvn -DskipTests=true clean install -X"
+sudo: false
+script: "mvn -DskipTests=true -Dmaven.javadoc.skip=true clean install"
