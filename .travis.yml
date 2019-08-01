@@ -4,4 +4,4 @@ install: true
 
 sudo: false # faster builds
 
-script: "mvn -DskipTests=true clean verify"
+script: "mvn -DskipTests=true clean install -X"
