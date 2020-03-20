@@ -11,5 +11,6 @@ public enum PaymentMethod {
     SANTANDER_DI,
     CEF_TRANSFER,
     ORIGINAL_TRANSFER,
-    INTER_TRANSFER;
+    INTER_TRANSFER,
+    BS2_TRANSFER;
 }
