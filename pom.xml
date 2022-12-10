@@ -74,7 +74,7 @@
     <properties>
         <jackson.version>2.9.6</jackson.version>
         <modelMapper.version>2.1.0</modelMapper.version>
-        <springWeb.version>4.3.18.RELEASE</springWeb.version>
+        <springWeb.version>6.0.0</springWeb.version>
     </properties>
 
     <dependencies>
